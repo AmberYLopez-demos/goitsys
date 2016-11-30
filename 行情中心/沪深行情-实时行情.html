@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>深沪行情-实时实情</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="../resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="../resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="../data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="../files/行情中心/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="../resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="../resources/scripts/axure/axQuery.js"></script>
+    <script src="../resources/scripts/axure/globals.js"></script>
+    <script src="../resources/scripts/axutils.js"></script>
+    <script src="../resources/scripts/axure/annotation.js"></script>
+    <script src="../resources/scripts/axure/axQuery.std.js"></script>
+    <script src="../resources/scripts/axure/doc.js"></script>
+    <script src="../data/document.js"></script>
+    <script src="../resources/scripts/messagecenter.js"></script>
+    <script src="../resources/scripts/axure/events.js"></script>
+    <script src="../resources/scripts/axure/recording.js"></script>
+    <script src="../resources/scripts/axure/action.js"></script>
+    <script src="../resources/scripts/axure/expr.js"></script>
+    <script src="../resources/scripts/axure/geometry.js"></script>
+    <script src="../resources/scripts/axure/flyout.js"></script>
+    <script src="../resources/scripts/axure/ie.js"></script>
+    <script src="../resources/scripts/axure/model.js"></script>
+    <script src="../resources/scripts/axure/repeater.js"></script>
+    <script src="../resources/scripts/axure/sto.js"></script>
+    <script src="../resources/scripts/axure/utils.temp.js"></script>
+    <script src="../resources/scripts/axure/variables.js"></script>
+    <script src="../resources/scripts/axure/drag.js"></script>
+    <script src="../resources/scripts/axure/move.js"></script>
+    <script src="../resources/scripts/axure/visibility.js"></script>
+    <script src="../resources/scripts/axure/style.js"></script>
+    <script src="../resources/scripts/axure/adaptive.js"></script>
+    <script src="../resources/scripts/axure/tree.js"></script>
+    <script src="../resources/scripts/axure/init.temp.js"></script>
+    <script src="../files/行情中心/data.js"></script>
+    <script src="../resources/scripts/axure/legacy.js"></script>
+    <script src="../resources/scripts/axure/viewer.js"></script>
+    <script src="../resources/scripts/axure/math.js"></script>
+    <script src="../resources/scripts/bootstrap.min.css"></script>
+
+    <script type="text/javascript">
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <div id="base">
+        <div id="header">
+            <div class="logo_search">
+                <img class="logo" src="../images/index/logo.jpg"/>
+                <div class="search">
+                    <input class="search_input" type="text" name="keyword"/>
+                    <input class="search_button"  name="soft" value="搜索" type="button" style="cursor: pointer;"/>
+                </div>
+            </div>
+        </div>
+        <ul id="nav" class="ax_default">
+            <li class="main-nav">
+                <a style="cursor: pointer;">首页</a>
+            </li>
+            <li class="market-center-nav">
+                <a style="cursor: pointer; ">行情中心</a>
+                <ul class="nav-down">
+                    <li><a href="沪深行情-实时行情.html">泸深行情</a></li>
+                    <li><a href="期货行情-股指期货.html">期货行情</a></li>
+                    <li><a href="港股-港股总览.html">港股</a></li>
+                    <li><a href="美股-最新行情.html">美股</a></li>
+                    <li><a href="日本-实时行情.html">日本</a></li>
+                    <li><a href="外汇-实时行情.html">外汇</a></li>
+                    <li><a href="全球指数-全景概况.html">全球指数</a></li>
+                </ul>
+            </li>
+            <li class="big-data-nav">
+                <a style="cursor: pointer;">大数据</a>
+                <ul class="nav-down">
+                    <li><a href="#">金融大数据</a></li>
+                    <li><a href="#">物流大数据</a></li>
+                    <li><a href="#">电力大数据</a></li>
+                    <li><a href="#">土地大数据</a></li>
+                    <li><a href="#">一带一路</a></li>
+                    <li><a href="#">气象大数据</a></li>
+                </ul>
+            </li>
+            <li class="strategy-platform-nav">
+                <a style="cursor: pointer;">策略平台</a>
+                <ul class="nav-down">
+                    <li><a href="#">策略编辑</a></li>
+                    <li><a href="#">策略编译</a></li>
+                    <li><a href="#">策略回测</a></li>
+                    <li><a href="#">我的策略</a></li>
+                    <li><a href="#">策略商城</a></li>
+                </ul>
+            </li>
+            <li class="artificial-intelligence-nav">
+                <a style="cursor: pointer;">人工智能</a>
+                <ul class="nav-down">
+                    <li><a href="#">智能选股</a></li>
+                    <li><a href="#">智能交易</a></li>
+                </ul>
+            </li>
+            <li class="emulation-trade-nav">
+                <a style="cursor: pointer;">仿真交易</a>
+                <ul class="nav-down">
+                    <li><a href="#">模拟交易</a></li>
+                    <li><a href="#">交易大赛</a></li>
+                </ul>
+            </li>
+            <li class="api-nav">
+                <a style="cursor: pointer;">API</a>
+                <ul class="nav-down">
+                    <li><a href="#">行情</a></li>
+                    <li><a href="#">交易</a></li>
+                    <li><a href="#">历史</a></li>
+                    <li><a href="#">基本面</a></li>
+                    <li><a href="#">舆情</a></li>
+                </ul>
+            </li>
+            <li class="school-nav">
+                <a style="cursor: pointer;">学堂</a>
+                <ul class="nav-down">
+                    <li><a href="#">基本知识</a></li>
+                    <li><a href="#">基本方法</a></li>
+                    <li><a href="#">策略指标</a></li>
+                    <li><a href="#">论坛</a></li>
+                    <li><a href="#">精品课程</a></li>
+                </ul>
+            </li>
+            <li class="about-us-nav">
+                <a style="cursor: pointer;">公司介绍</a>
+                <ul class="nav-down">
+                    <li><a href="#">公司简介</a></li>
+                    <li><a href="#">产品介绍</a></li>
+                    <li><a href="#">成功案例</a></li>
+                    <li><a href="#">客户群</a></li>
+                    <li><a href="#">人才招聘</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!--</div>-->
+    <!--左侧导航-->
+    <div class="left-nav">
+        <div class="right-nav-contain" id="'right-nav-contain">
+            <ul id="accordion" class="accordion">
+                <li class="open">
+                    <div class="link"><i class="down"></i>沪深行情</div>
+                    <ul class="subMenu" style="display: block">
+                        <li><a href="#">实时行情</a></li>
+                        <li><a href="沪深行情-历史查询.html">历史查询</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="link"><i class="down"></i>期货行情</div>
+                    <ul class="subMenu">
+                        <li><a href="期货行情-股指期货.html">股指期货</a></li>
+                        <li><a href="期货行情-商品期货.html">商品期货</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="link"><i class="down"></i>港股</div>
+                    <ul class="subMenu">
+                        <li><a href="港股-沪港通.html">沪港通</a></li>
+                        <li><a href="港股-港股总览.html">港股总览</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="link"><i class="down"></i>美股</div>
+                    <ul class="subMenu">
+                        <li><a href="美股-最新行情.html">最新行情</a></li>
+                        <li><a href="美股-历史走势.html">历史走势</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="link"><i class="down"></i>日本</div>
+                    <ul class="subMenu">
+                        <li><a href="日本-实时行情.html">实时行情</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="link"><i class="down"></i>外汇</div>
+                    <ul class="subMenu">
+                        <li><a href="外汇-实时行情.html">实时行情</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="link"><i class="down"></i>全球指数</div>
+                    <ul class="subMenu">
+                        <li><a href="全球指数-全景概况.html">全景概况</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--沪深行情-实时行情-->
+    <div class="right-contain table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>代码</th>
+                <th>名称</th>
+                <th>现价</th>
+                <th>涨跌</th>
+                <th>涨跌幅</th>
+                <th>成交量</th>
+                <th>年初至今</th>
+                <th>时间</th>
+            </tr>
+            </thead>
+            <tbody id="hushen-now">
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $(function () {
+            var Accordion = function (el, multiple) {
+                this.el = el || {};
+                this.multiple = multiple || false;
+                var links = this.el.find('.link');
+                links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+            };
+
+            Accordion.prototype.dropdown = function (e) {
+                var $el = e.data.el;
+                $this = $(this);
+                $next = $this.next();
+
+                $next.slideToggle();
+                $this.parent().toggleClass('open');
+
+                if (!e.data.multiple) {
+                    $el.find('.subMenu').not($next).slideUp().parent().removeClass('open');
+                }
+
+            };
+
+            var accordion = new Accordion($('#accordion'), false);
+        });
+
+        //沪深行情-实时行情
+        var shenhuData = [
+            {
+                "id": "1",
+                "num": "30566",
+                "name": "东方中科",
+                "current_price": "8.64",
+                "up_down": "0.79",
+                "up_down_range": "10.06%",
+                "turnover": "3726",
+                "up_now": "21.01%",
+                "time": "15.00",
+            },
+            {
+                "id": "1",
+                "num": "30566",
+                "name": "东方中科",
+                "current_price": "8.64",
+                "up_down": "0.79",
+                "up_down_range": "10.06%",
+                "turnover": "3726",
+                "up_now": "21.01%",
+                "time": "15.00",
+            }
+        ];
+
+        function initShenhuNowTable() {////沪深行情-实时行情
+            var html = '';
+            for (let j in shenhuData) {
+                var obj = shenhuData[j];
+                html += '<tr>';
+                html += '<td>' + obj.id + '</td>';
+                html += '<td>' + obj.num + '</td>';
+                html += '<td>' + obj.name + '</td>';
+                html += '<td>' + obj.current_price + '</td>';
+                html += '<td>' + obj.up_down + '</td>';
+                html += '<td>' + obj.up_down_range + '</td>';
+                html += '<td>' + obj.turnover + '</td>';
+                html += '<td>' + obj.up_now + '</td>';
+                html += '<td>' + obj.time + '</td>';
+                html += '</tr>';
+            }
+            $('#hushen-now').append(html);
+        }
+
+        initShenhuNowTable();
+    })
+</script>
+<!--</div>-->
+</body>
+</html>

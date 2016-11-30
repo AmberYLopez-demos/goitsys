@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/行情中心/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/行情中心/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+
+    <script type="text/javascript">
+        $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+        $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+        $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei';
+        }
+
+        .wrap {
+            margin: auto;
+            width: 1000px;
+            height: 600px;
+        }
+
+        a {
+            cursor: pointer;
+        }
+
+        ul, li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .right-nav {
+            width: 150px;
+            height: 545px;
+            background-color: #336699; /*#138CDD;*/
+            position: absolute;
+            top: 120px;
+            left: 115px;
+        }
+
+        .accordion {
+            width: 100%;
+            max-width: 360px;
+            margin: 30px auto 20px;
+            background: #336699;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+        }
+
+        .accordion .link {
+            cursor: pointer;
+            display: block;
+            padding: 10px 0px 10px 35px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: 'Microsoft YaHei';
+            border-bottom: 1px solid #CCC;
+            position: relative;
+            -webkit-transition: all 0.4s ease;
+            -o-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+        }
+
+        .accordion li:last-child .link {
+            border-bottom: 0;
+        }
+
+        .accordion li i {
+            position: absolute;
+            top: 16px;
+            left: 12px;
+            width: 10px;
+            height: 10px;
+            background: url('images/行情中心/u172.png');
+            background-size: auto;
+            -webkit-transition: all 0.4s ease;
+            -o-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+        }
+
+        .accordion li.open i.down { /*下拉箭头*/
+            -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        .subMenu {
+            display: none;
+            background: #444359;
+            /*height:80px;*/
+        }
+
+        .subMenu li {
+            border-bottom: 1px solid #4b4a5e;
+            font-family: 'Microsoft YaHei';
+            height: 36px;
+            font-size: 16px;
+        }
+
+        .subMenu li a {
+            display: block;
+            height: 36px;
+            text-decoration: none;
+            color: #d9d9d9;
+            letter-spacing: 1px;
+            padding: 6px 0 0 45px;
+            -webkit-transition: all 0.25s ease;
+            -o-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+        }
+
+        .subMenu a:hover {
+            color: #FFF;
+            background-color: #AAAAAA;
+        }
+
+        .left-contain {
+            position: relative;
+            margin: 120px 0 0 230px; /*上右下左*/
+            width: 75%;
+            height: 500px;
+        }
+
+        .hushen-now { /*沪深行情-实时行情*/
+            display: block;
+        }
+
+        .gang-all { /*港股-港股总览*/
+            display: none;
+        }
+
+        .hugang { /*港股-沪港通*/
+            display: none;
+
+        }
+
+        .goods-futures { /*期货行情-商品期货*/
+            display: block;
+        }
+
+        .USA-now { /*美股-最新行情*/
+            display: none;
+        }
+
+        .Japan-now { /*日本-实时行情*/
+            display: none;
+        }
+
+        .forex-now { /*外汇-实时行情*/
+            display: none;
+        }
+
+        .stock-index-futures { /*期货行情-股指期货*/
+            display: none;
+        }
+
+        .global-general { /*全球指数-全球概况*/
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<!--container-->
+<div id="right-nav" class="right-nav">
+    <div class="right-nav-contain" id="'right-nav-contain">
+        <ul id="accordion" class="accordion">
+            <li>
+                <div class="link"><i class="down"></i>沪深行情</div>
+                <ul class="subMenu">
+                    <li><a>实时行情</a></li>
+                    <li><a>历史查询</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <div class="link"><i class="down"></i>期货行情</div>
+                <ul class="subMenu">
+                    <li><a>股指期货</a></li>
+                    <li><a>商品期货</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <div class="link"><i class="down"></i>港股</div>
+                <ul class="subMenu">
+                    <li><a>沪港通</a></li>
+                    <li><a>港股总览</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <div class="link"><i class="down"></i>美股</div>
+                <ul class="subMenu">
+                    <li><a>最新行情</a></li>
+                    <li><a>历史走势</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <div class="link"><i class="down"></i>日本</div>
+                <ul class="subMenu">
+                    <li><a>实时行情</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <div class="link"><i class="down"></i>外汇</div>
+                <ul class="subMenu">
+                    <li><a>实时行情</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <div class="link"><i class="down"></i>全球指数</div>
+                <ul class="subMenu">
+                    <li><a>全景概况</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
