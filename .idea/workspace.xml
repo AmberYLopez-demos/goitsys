@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f101d9-79e6-43a9-af66-f4c304616882" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/index/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/index/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/index/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/index/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/index/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/行情中心/01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lian.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/全球指数-全景概况.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/外汇-实时行情.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/日本-实时行情.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/期货行情-商品期货.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/期货行情-股指期货.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/沪深行情-历史查询.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/沪深行情-实时行情.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/港股-沪港通.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/港股-港股总览.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/美股-历史走势.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/行情中心/美股-最新行情.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hangping.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hanggu.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/index/styles.css" afterPath="$PROJECT_DIR$/files/index/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/行情中心/styles.css" afterPath="$PROJECT_DIR$/files/行情中心/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/行情中心.html" afterPath="$PROJECT_DIR$/行情中心.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/echarts.min.js" afterPath="$PROJECT_DIR$/resources/scripts/echarts.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/行情中心/沪深行情-历史查询.html" afterPath="$PROJECT_DIR$/行情中心/沪深行情-历史查询.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/行情中心/美股-历史走势.html" afterPath="$PROJECT_DIR$/行情中心/美股-历史走势.html" />
     </list>
     <ignored path="goitsys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +34,7 @@
       <file leaf-file-name="行情中心.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/行情中心.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69872">
+            <state relative-caret-position="22">
               <caret line="3176" column="0" selection-start-line="3176" selection-start-column="0" selection-end-line="3176" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,25 +44,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="沪深行情-历史查询.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/行情中心/沪深行情-历史查询.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="220" column="95" selection-start-line="220" selection-start-column="95" selection-end-line="220" selection-end-column="95" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/行情中心/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="204" column="21" selection-start-line="204" selection-start-column="21" selection-end-line="204" selection-end-column="21" />
+            <state relative-caret-position="313">
+              <caret line="205" column="23" selection-start-line="205" selection-start-column="23" selection-end-line="205" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="美股-历史走势.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="美股-历史走势.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/行情中心/美股-历史走势.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="270" column="50" selection-start-line="270" selection-start-column="50" selection-end-line="270" selection-end-column="50" />
+            <state relative-caret-position="242">
+              <caret line="215" column="14" selection-start-line="215" selection-start-column="14" selection-end-line="215" selection-end-column="14" />
               <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1480522878130" expanded="true" signature="10076:43194" ph="{...}" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,7 +84,7 @@
       <file leaf-file-name="港股-港股总览.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/行情中心/港股-港股总览.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
+            <state relative-caret-position="-5267">
               <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -132,12 +125,12 @@
         <option value="$PROJECT_DIR$/行情中心/美股-最新行情.html" />
         <option value="$PROJECT_DIR$/行情中心/期货行情-商品期货.html" />
         <option value="$PROJECT_DIR$/行情中心/期货行情-股指期货.html" />
-        <option value="$PROJECT_DIR$/行情中心/沪深行情-历史查询.html" />
         <option value="$PROJECT_DIR$/行情中心/沪深行情-实时行情.html" />
         <option value="$PROJECT_DIR$/行情中心/外汇-实时行情.html" />
         <option value="$PROJECT_DIR$/行情中心/港股-沪港通.html" />
         <option value="$PROJECT_DIR$/行情中心/港股-港股总览.html" />
         <option value="$PROJECT_DIR$/行情中心/美股-历史走势.html" />
+        <option value="$PROJECT_DIR$/行情中心/沪深行情-历史查询.html" />
         <option value="$PROJECT_DIR$/files/行情中心/styles.css" />
       </list>
     </option>
@@ -179,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,72 +204,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goitsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goitsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="行情中心" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goitsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goitsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goitsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goitsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="行情中心" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goitsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goitsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,7 +217,7 @@
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/goitsys/files/index/styles.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ECharts_demo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -390,12 +319,14 @@
       <workItem from="1480499542113" duration="1632000" />
       <workItem from="1480506101052" duration="13324000" />
       <workItem from="1480521600816" duration="15000" />
-      <workItem from="1480521747804" duration="1285000" />
+      <workItem from="1480521747804" duration="1432000" />
+      <workItem from="1480568028954" duration="1497000" />
+      <workItem from="1480606563645" duration="3206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68306000" />
+    <option name="totallyTimeSpent" value="73156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -728,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/行情中心/沪深行情-历史查询.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="85" column="62" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/行情中心/沪深行情-实时行情.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -763,9 +687,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/行情中心/港股-港股总览.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5267">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/行情中心.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69872">
+        <state relative-caret-position="22">
           <caret line="3176" column="0" selection-start-line="3176" selection-start-column="0" selection-end-line="3176" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -774,33 +708,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/行情中心/港股-港股总览.html">
+    <entry file="file://$PROJECT_DIR$/行情中心/沪深行情-历史查询.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="220" column="95" selection-start-line="220" selection-start-column="95" selection-end-line="220" selection-end-column="95" />
           <folding>
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/行情中心/美股-历史走势.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="270" column="50" selection-start-line="270" selection-start-column="50" selection-end-line="270" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1480522878130" expanded="true" signature="10076:43194" ph="{...}" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/行情中心/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="204" column="21" selection-start-line="204" selection-start-column="21" selection-end-line="204" selection-end-column="21" />
+        <state relative-caret-position="313">
+          <caret line="205" column="23" selection-start-line="205" selection-start-column="23" selection-end-line="205" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/行情中心/美股-历史走势.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="215" column="14" selection-start-line="215" selection-start-column="14" selection-end-line="215" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

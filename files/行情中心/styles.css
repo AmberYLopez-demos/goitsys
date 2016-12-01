@@ -203,9 +203,8 @@ ul, li {
 
 .right-contain {
   position: absolute;
-  margin: 150px 0 0 195px; /*上右下左*/
-  /*width: 80%;*/
-  width: 1000px;
-  height: 500px;
+  margin: 150px 0 0 190px; /*上右下左*/
+  width: 80%;
+  height: 520px;
   z-index: 0;
 }
